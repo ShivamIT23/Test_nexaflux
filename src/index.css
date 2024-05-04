@@ -14,14 +14,6 @@ a {
     color: inherit;
 }
 
-.Header-Header{
-    padding: 2rem;
-    height: 15rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .WebInfo{
     display: flex;
     width: fit-content;
@@ -40,6 +32,23 @@ a {
     font-size: 2.6rem;
     color: rgb(119, 119, 211);
     font-weight: 1000 !important;
+}
+
+
+.Header-Header{
+    padding: 2rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderPages{
+    font-size: 2rem;
+}
+
+.HeaderLink{
+    font-size: 2rem;
 }
 
 .HeaderImg img{

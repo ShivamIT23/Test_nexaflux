@@ -2,6 +2,6 @@
 
 export default function HeaderLink() {
   return (
-    <div><a href="#">/support@nexaflux.com</a></div>
+    <div className="HeaderLink"><a href="#">/support@nexaflux.com</a></div>
   )
 }
