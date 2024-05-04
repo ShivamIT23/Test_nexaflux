@@ -1,6 +1,6 @@
 
 export default function MainHeading() {
   return (
-    <div><sup>__</sup> Track market</div>
+    <div className="MainHeading"><sup>__</sup> Track market</div>
   )
 }

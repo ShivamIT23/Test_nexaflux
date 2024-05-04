@@ -1,7 +1,7 @@
-import MainIcon from '../../public/MainIcon.png'
+import MainIcon from '/MainIcon.png'
 
 export default function HeaderImg() {
   return (
-    <div><img src={MainIcon} alt="" /></div>
+    <div className='HeaderImg'><img src={MainIcon} alt="" /></div>
   )
 }

@@ -16,7 +16,7 @@ a {
 
 .Header-Header{
     padding: 2rem;
-    height: 5rem;
+    height: 15rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,11 +30,53 @@ a {
 }
 
 .WebInfo p {
-    font-size: 1.5rem;
+    padding: 0 1rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .WebInfo h1{
+    padding: 0 1rem;
     font-size: 2.6rem;
+    color: rgb(119, 119, 211);
     font-weight: 1000 !important;
+}
+
+.HeaderImg img{
+    height: 6vh;
+}
+
+.MainContainer{
+    padding: 2vh 3vw;
+    text-align: center;
+}
+
+.MainMsg{
+    text-transform: uppercase;
+    font-stretch: 150% !important;
+    padding: 1vh 15vw 1vw;
+    font-size: 4.3rem;
+    font-weight: 800;
+}
+
+.MainDesc{
+    padding: 0 10vw;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+.MainHeading{
+    font-size: 3.5rem;
+    font-weight: 500;
+    opacity: 0.5;
+    margin: 1vh;
+}
+
+.MainImg img{
+    height: 50vh;
+}
+
+.MainImg {
+    padding: 4rem;
 }

@@ -1,6 +1,6 @@
 
 export default function MainMsg() {
   return (
-    <div>mainMsg</div>
+    <div className="MainMsg">Receive sms notifications when prices hit target levels</div>
   )
 }
